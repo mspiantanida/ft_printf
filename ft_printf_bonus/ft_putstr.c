@@ -26,11 +26,3 @@ int	ft_putstr(char *s)
 	}
 	return (i);
 }
-
-/*int	main()
-{
-	char	*str = "Hello 42";
-
-	ft_putstr(str);
-	return (0);
-}*/

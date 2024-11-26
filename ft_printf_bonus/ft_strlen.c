@@ -21,13 +21,3 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
-
-/*#include <stdio.h>
-
-int	main(void)
-{
-	char	text[] = "Hello 42 Luxembourg!!!";
-
-	printf("length: %zu \n", ft_strlen(text));
-	return (0);
-}*/

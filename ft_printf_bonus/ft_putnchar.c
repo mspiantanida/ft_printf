@@ -6,7 +6,7 @@
 /*   By: mpiantan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 18:05:36 by mpiantan          #+#    #+#             */
-/*   Updated: 2024/11/19 18:07:20 by mpiantan         ###   ########.fr       */
+/*   Updated: 2024/11/20 15:52:29 by mpiantan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	ft_putnchar(char c, int n)
 	int	count;
 
 	count = 0;
-	while (n-- >0)
+	while (n-- > 0)
 		count += write(1, &c, 1);
 	return (count);
 }
